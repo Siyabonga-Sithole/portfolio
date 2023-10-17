@@ -1,0 +1,103 @@
+﻿Google-ads<!DOCTYPE html>
+ <html lang="en-US">
+  <head>
+   <title>Siya Code Works Portfolio</title>	
+   <link rel="stylesheet" href="style.css" />
+  </head>
+ <body>
+  <div class="navbar">
+   <div class="flex-container">
+    <div class="logo">
+       <h1>SiyaCodeWorks</h1> 
+    </div>
+    <nav>
+        <ul>
+         <li><a href="#about">About</a></li>
+         <li><a href="#skills">Skills</a></li>
+         <li><a href="#experience">Experience</a></li>
+         <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   </div>
+  </div>
+
+<section class="main-section">
+  <h1>Hi, I'm Siya!</h1>
+  <h2>"Ready to turn your web dreams into reality with code that works."</h2>
+ </section>
+  
+  <main>
+      
+<section id="about">
+ <div class="image">
+  <img src="me.jpg" alt="Siya">
+   </div>
+        <h2>About Me</h2>
+	<br>
+        <p>I'm a dedicated web developer with a strong passion for crafting beautiful and functional websites. Equipped with a solid foundation in HTML, CSS, and JavaScript, I am committed to delivering high-quality web solutions.</p>
+	<br>
+	<p>As an experienced developer, I recognize the significance of effective communication and collaboration. I'm dedicated to nurturing productive relationships with clients and colleagues, and my focus is consistently on achieving exceptional results.</p>
+	<br>
+	<p>Whether your project is a straightforward website or a complex web application, I'm well-prepared to meet the challenge. My work centers on precision, efficiency, and creating an exceptional user experience, ensuring exceptional outcomes every time.</p>
+	<br>
+	<p>Let's collaborate to build something remarkable!</p>
+        
+      </section>
+    
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skill-cloud">
+    <div class="skill" data-certification="HTML Certification">HTML<img src="Responsive Web Design HTML & CSS certificate.png"></div>
+    <div class="skill" data-certification="CSS Certification">CSS<img src="Responsive Web Design HTML & CSS certificate.png"></div>
+    <div class="skill" data-certification="JavaScript Certification">JavaScript<img src="Javscript certificate.png"></div>
+        <div class="skill" data-certification="Google-ads Certification">Google-ads</div>
+  </div>
+</section>
+
+
+
+
+
+
+  
+<section id="experience">
+        <h2>Experience</h2>
+<div class="projects-carousel">
+  <div class="project-box">
+    <!-- Project content goes here -->
+  </div>
+  <div class="project-box">
+    <!-- Project content goes here -->
+  </div>
+  <div class="project-box">
+    <!-- Project content goes here -->
+  </div>
+  <div class="project-box">
+    <!-- Project content goes here -->
+  </div>
+  <div class="project-box">
+    <!-- Project content goes here -->
+  </div>
+  <div class="project-box">
+    <!-- Project content goes here -->
+  </div>
+</div>
+      </section>
+      
+<section id="contact">
+        <h2>Get In Touch</h2>
+        <form action="submit-form.php" method="post">
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="email" name="email" placeholder="Your Email">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    
+<footer>
+      <p>Copyright &copy; Siyabonga Lawrence Sithole 2023</p>
+    </footer>
+<script src="script.js"></script>  </body>
+
+ </html>
