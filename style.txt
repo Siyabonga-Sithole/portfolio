@@ -306,3 +306,37 @@ button[type="submit"]:hover {
     padding: 20px;
   }
 }
+/* Style for the footer section */
+footer {
+  background-color: #4d4d4d;
+  padding: 20px 0;
+  text-align: center;
+  color: #c19a6b; /* Use the theme's text color */
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Add a horizontal line above the copyright notice */
+footer::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #c19a6b;
+  margin: 20px auto;
+  width: 50px;
+}
+
+/* Copyright text style */
+footer p::before {
+  content: "\00a9"; /* Use the copyright symbol */
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+/* Add a subtle hover effect on the copyright notice */
+footer p:hover {
+  color: #ebebeb; /* Change text color on hover */
+  transition: 0.4s;
+}
