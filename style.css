@@ -226,17 +226,15 @@
   text-shadow: 2px 2px #2C3E50; /* Soft Black */
 }
 
-/* Style for the contact section */
 #contact {
-  background: #f9f9f9; /* Use a light background color */
+  background: #4d4d4d; /* Match the background color of other sections */
   padding: 50px;
   text-align: center;
-  border-top: 2px solid #3498db; /* Add a top border to separate from the previous section */
 }
 
 #contact h2 {
+  color: #c19a6b; /* Use the theme's text color */
   font-size: 2.5rem;
-  color: #333; /* Dark text color */
 }
 
 #contact form {
@@ -251,10 +249,11 @@ textarea {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ccc; /* Add subtle borders */
+  border: 1px solid #ccc;
   border-radius: 5px;
   background: #fff;
   font-size: 1rem;
+  color: #333; /* Use the theme's text color */
 }
 
 input[type="text"],
@@ -267,7 +266,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background: #3498db; /* Use a contrasting button color */
+  background: #c19a6b; /* Match the theme's button color */
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -278,10 +277,10 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background: #2c78ab; /* Slightly darken the button on hover */
+  background: #ebebeb; /* Use a subtle hover effect */
 }
 
-/* Add some box shadow to give the form a card-like appearance */
+/* Add a box shadow to give the form a card-like appearance */
 #contact form {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
