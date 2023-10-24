@@ -20,7 +20,7 @@
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
   (function () {
-    emailjs.init("Siyabonga"); // Replace with your EmailJS user ID
+    emailjs.init("racoonturtle@gmail.com"); // Replace with your EmailJS user ID
 
     const form = document.getElementById("contact-form");
     form.addEventListener("submit", function (event) {
