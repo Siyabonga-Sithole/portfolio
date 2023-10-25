@@ -3,6 +3,13 @@
   <head>
    <title>Siya Code Works Portfolio</title>	
    <link rel="stylesheet" href="style.css" />
+ <style>
+    @media screen and (max-width: 768px) {
+      .main-section h1 {
+        font-size: 40px;
+      }
+    }
+  </style>
   </head>
  <body>
   <div class="navbar">
