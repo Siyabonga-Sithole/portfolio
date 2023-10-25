@@ -71,6 +71,7 @@
         <h2>Experience</h2>
 <div class="projects-carousel">
   <div class="project-box">
+    <img src="siyacodeworksthumb.png" alt="Siyacodeworks Thumbnail">
     <!-- Project content goes here -->
   </div>
   <div class="project-box">
