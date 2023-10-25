@@ -222,12 +222,13 @@ button[type="submit"]:hover {
 }
 #skills {
   background-color: #FFFFFF;
+}
 
-}
 #skills h2 {
- text-align: center;
- color: #c19a6b;
+  text-align: center;
+  color: #c19a6b;
 }
+
 .skill-cloud {
   display: flex;
   flex-wrap: wrap;
@@ -243,7 +244,38 @@ button[type="submit"]:hover {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   margin: 4%;
-   align-items: center;
+  position: relative; /* Add this */
+}
+
+.skill-text {
+  position: relative;
+  z-index: 1;
+}
+
+.skill-popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.skill:hover .skill-popup {
+  display: block;
+  opacity: 1;
+}
+
+.skill-popup img {
+  width: 300px;
+  height: 200px; /* Ensure the image fits inside the popup */
 }
 
 .skill:hover {
