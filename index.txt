@@ -108,9 +108,9 @@
 <section id="contact">
   <h2>Get In Touch</h2>
   <form id="contact-form">
-    <input type="text" name="name" placeholder="Your Name">
-    <input type="email" name="email" placeholder="Your Email">
-    <textarea name="message" placeholder="Your Message"></textarea>
+  <input type="text" id="name" name="name" placeholder="Your Name">
+  <input type="email" id="email" name="email" placeholder="Your Email">
+<textarea id="message" name="message" placeholder="Your Message"></textarea>
     <button type="submit">Submit</button>
   </form>
 </section>
