@@ -1,113 +1,132 @@
-	body {
-		background: linear-gradient(to right, #fffff0 50%, #E5E0D5 50%);
-		background-size: cover;
-}
-	.box-list a {
-		color: black;
-		text-decoration: none;
-}
-	.box-list a:hover {
-		background-color: #fffff0;		
-}
-	* {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-	.navbar {
-    		overflow: hidden;
-		width: 100%;
-		color: #c19a6b;
-		background-color: #4d4d4d;
-		height: 70px;
-		position: fixed;
-    		top: 0;
-}
-	.navbar .flex-container {
-		max-width: 1200px;
-		margin: 0px auto;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		height: 70px;
-}
-	nav {
-		display: flex;
-}
-	nav ul {
-		display: flex;
-		margin-right: 10px;
-}
-	nav ul li {
-		list-style: none;
-}
-	nav ul li a {
-		color: #c19a6b;
-		text-decoration: none; 	
-		font-size: 17px;
-		margin: 0px 10px;	
-}
-	nav ul li a:hover {
-		color: #fffff0;
-		transition: 0.8s;		
+body {
+  background: linear-gradient(to right, #fffff0 50%, #E5E0D5 50%);
+  background-size: cover;
 }
 
-	.main-section {
-		Margin: 200px;
-		text-align: center;
-}
-	.main-section h1 {
-		color: #c19a6b;
-		font-size: 80px;
-
-}
-	.main-section h2 {
-		color: #4d4d4d;
-		font-size: 60px;
-		text-shadow: 5px 5px 5px grey;
+.box-list a {
+  color: black;
+  text-decoration: none;
 }
 
-	.footer {
-		position: fixed;
-		right: 0;		
-		bottom: 0;
-		background-color: ;
-		padding-left: 1300px;
+.box-list a:hover {
+  background-color: #fffff0;
 }
-	.footer ul {
-		display: flex;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-	.footer ul li {
-		list-style: none;
-		margin: 1px;
+
+.navbar {
+  overflow: hidden;
+  width: 100%;
+  color: #c19a6b;
+  background-color: #4d4d4d;
+  height: 70px;
+  position: fixed;
+  top: 0;
 }
-	.footer ul li h4 {
-		color: black;
-		margin-right: 1300px;
-}	
- #about {
- background-color: #4d4d4d;
+
+.navbar .flex-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #c19a6b;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0 10px;
+}
+
+nav ul li a:hover {
+  color: #fffff0;
+  transition: 0.8s;
+}
+
+.main-section {
+  Margin: 200px;
+  text-align: center;
+}
+
+.main-section h1 {
+  color: #c19a6b;
+  font-size: 80px;
+}
+
+.main-section h2 {
+  color: #4d4d4d;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px grey;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: ;
+  padding-left: 1300px;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer ul li {
+  list-style: none;
+  margin: 1px;
+}
+
+.footer ul li h4 {
+  color: black;
+  margin-right: 1300px;
+}
+
+#about {
+  background-color: #4d4d4d;
   float: right;
- padding: 1%;
+  padding: 1%;
 }
- #about h2 {
-		text-align: center;
-		color: #c19a6b;
-   margin-right: 22%;
+
+#about h2 {
+  text-align: center;
+  color: #c19a6b;
+  margin-right: 22%;
   margin-top: 10%;
 }
- #about p {
+
+#about p {
   color: #FFFFFF;
   font-size: 1em;
 }
- #experience {
+
+#experience {
   background-color: #4d4d4d;
 }
- #experience h2 {
- text-align: center;
- color: #c19a6b;
+
+#experience h2 {
+  text-align: center;
+  color: #c19a6b;
 }
+
 .projects-carousel {
   display: flex;
   overflow-x: scroll;
@@ -124,52 +143,41 @@
   scroll-snap-align: start;
   border-radius: 5px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-} 
+}
+
 .project-box img {
   width: 100%;
   height: 100%;
 }
+
 #contact {
-  background: #4d4d4d; /* Match the background color of other sections */
+  background: #4d4d4d;
   padding: 50px;
   text-align: center;
 }
 
 #contact h2 {
-  color: #c19a6b; /* Use the theme's text color */
+  color: #c19a6b;
   font-size: 2.5rem;
 }
 
-#contact form {
-  max-width: 600px;
-  margin: 0 auto;
+#contact p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
-/* Style for form elements */
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background: #fff;
-  font-size: 1rem;
-  color: #333; /* Use the theme's text color */
+#contact a {
+  color: #c19a6b;
+  text-decoration: none;
 }
 
-input[type="text"],
-input[type="email"] {
-  height: 50px;
+#contact a:hover {
+  text-decoration: underline;
 }
 
-textarea {
-  height: 150px;
-}
-
-button[type="submit"] {
-  background: #c19a6b; /* Match the theme's button color */
+button {
+  background: #c19a6b;
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -179,49 +187,12 @@ button[type="submit"] {
   transition: background 0.3s;
 }
 
-button[type="submit"]:hover {
-  background: #ebebeb; /* Use a subtle hover effect */
+button:hover {
+  background: #ebebeb;
 }
 
-/* Add a box shadow to give the form a card-like appearance */
-#contact form {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Add some spacing between form elements */
-#contact form input,
-#contact form textarea {
-  margin: 10px 0;
-}
-
-/* Center the form elements within the form */
-#contact form input,
-#contact form textarea,
-#contact form button {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-/* Media query for responsiveness */
-@media (max-width: 768px) {
-  #contact form {
-    padding: 20px;
-  }
-}
- footer {
-  background-color: #4d4d4d;
-}
-.image {
- display: block;
-}
-.image img {
- margin: 15px;
- width: 20%;
- float:left;
-}
 #skills {
-  background-color: #FFFFFF;
+  background: linear-gradient(to right, #fffff0 50%, #E5E0D5 50%);
 }
 
 #skills h2 {
@@ -244,7 +215,7 @@ button[type="submit"]:hover {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   margin: 4%;
-  position: relative; /* Add this */
+  position: relative;
 }
 
 .skill-text {
@@ -274,8 +245,8 @@ button[type="submit"]:hover {
 }
 
 .skill-popup img {
-  width: 300px;
-  height: 200px; /* Ensure the image fits inside the popup */
+  width: 200px;
+  height: 100px; /* Ensure the image fits inside the popup */
 }
 
 .skill:hover {
@@ -328,8 +299,8 @@ button[type="submit"]:hover {
   top: calc(100% + 0.25rem);
   opacity: 1;
 }
-.logo {
 
+.logo {
   font-size: 1.5rem;
   color: #c19a6b; /* Brown */
   text-shadow: 2px 2px #2C3E50; /* Soft Black */

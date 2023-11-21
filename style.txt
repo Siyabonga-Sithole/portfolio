@@ -221,7 +221,7 @@ button[type="submit"]:hover {
  float:left;
 }
 #skills {
-  background-color: #FFFFFF;
+		background: linear-gradient(to right, #fffff0 50%, #E5E0D5 50%);
 }
 
 #skills h2 {
